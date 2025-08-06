@@ -1,0 +1,55 @@
+
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+.next/
+*/dist/
+*/build/
+*/target/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging
+*/.env
+*/.env.local
+
+# Database
+*.db
+*.sqlite
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Java specific
+*.class
+*.jar
+*.war
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# Gradle
+.gradle/
+build/
+
+# Spring Boot
+spring.log
